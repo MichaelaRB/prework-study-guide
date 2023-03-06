@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -37,7 +38,19 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here!</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Inline CSS is applied to a specifice HTML tag, making them useful for quick and permanent changes but are a lot less flexible than style sheets.</li>
+          <li>An internal CSS style sheet is embedded into the document with the style element inside the head element. The CSS rules will only apply to this webpage.</li>
+          <li>External CSS style sheets are the ones most commonly used as they allow us to keep the rules in their own file, making it easier to make design changes.</li>
+          <li>You use the link element in the head element to link an external style sheet. Ex. link rel="stylesheet" href = "./assets/style.css", where rel defines the relationship and href points to the external sheet.</li>
+          <li>Using the * selector means that the rule will apply to every page element.</li>
+          <li>You can group together two or more elements as selectors if they are going to share the same styling. Ex. header, footer</li>
+          <li>CSS rules are structured as follows: selector {property1: value1; property2: value2; ...}</li>
+          <li>We can use class attributes to share a CSS rule to any element of our choosing by assigning the rule to an attribute with a selector.</li>
+          <li>You assign the class attribute to the element in HTML. Ex. section class="selector" id="section-id".</li>
+          <li>Class selectors will have a period in front of them when defining rules in the style sheet. Ex. .card.</li>
+          <li>When setting a value for the color property, you can use either a semantic reference such as gray or blue, or by using its hexadecimal code.</li>
         </ul>
       </section>
 
