@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 I wanted to complete the prework study guide website to store my notes from the prework and get suggestions for what topics to focus on for study. I built this project to make returning to the information from the prework more easily. This site keeps the different topics in distinct, easy-to-read sections that makes reviewing what I've learned so far easier. Through working on this project, I've learned more about HTML, CSS, JavaScript, and Git, giving me a solid starting point while entering into the bootcamp.
 
 ## Installation
